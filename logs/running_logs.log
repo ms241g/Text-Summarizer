@@ -33,3 +33,40 @@ Source-Age: 0
 [2023-06-24 13:11:30,610: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2023-06-24 13:34:23,781: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-06-24 13:34:23,793: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-24 13:34:23,795: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-24 13:34:23,795: INFO: common: created directory at: artifacts]
+[2023-06-24 13:34:23,796: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-06-24 13:34:23,797: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2023-06-24 13:34:24,003: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-06-24 13:34:24,003: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-06-24 13:34:24,009: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-24 13:34:24,010: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-24 13:34:24,011: INFO: common: created directory at: artifacts]
+[2023-06-24 13:34:24,011: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_validation_config']
+Traceback (most recent call last):
+  File "C:\Research\Kaggle\Github_projects\Text-Summarizer\main.py", line 25, in <module>
+    data_validation.main()
+  File "c:\research\kaggle\github_projects\text-summarizer\src\textSummarizer\pipeline\stage_02_data_validation.py", line 12, in main
+    data_validation_config = config.get_data_validation_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_validation_config'
+[2023-06-24 13:37:06,755: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-06-24 13:37:06,771: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-24 13:37:06,771: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-24 13:37:06,771: INFO: common: created directory at: artifacts]
+[2023-06-24 13:37:06,771: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-06-24 13:37:06,771: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2023-06-24 13:37:06,943: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-06-24 13:37:06,943: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-06-24 13:37:06,958: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-24 13:37:06,958: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-24 13:37:06,958: INFO: common: created directory at: artifacts]
+[2023-06-24 13:37:06,958: INFO: common: created directory at: artifacts/data_validation]
+[2023-06-24 13:37:06,958: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
